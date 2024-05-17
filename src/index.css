@@ -53,10 +53,12 @@ footer {
 footer div {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
 }
 
 footer h2 {
   font-size: 1.4rem;
+  line-height: normal;
 }
 
 footer h1 {
@@ -154,6 +156,17 @@ footer button:hover {
   font-weight: 200;
 }
 
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.descriptionTitle {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
 .loadingState {
   display: flex;
   align-items: center;
@@ -164,7 +177,7 @@ footer button:hover {
 .loadingState i {
   opacity: 0.2;
   font-size: 3rem;
-  animation: spin 1s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 @keyframes spin {
